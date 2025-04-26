@@ -1,0 +1,826 @@
+hello|xin chào
+welcome|chào mừng
+friend|bạn bè
+family|gia đình
+school|trường học
+teacher|giáo viên
+student|học sinh
+book|sách
+pen|bút
+paper|giấy
+table|cái bàn
+chair|cái ghế
+window|cửa sổ
+door|cái cửa
+house|ngôi nhà
+room|căn phòng
+kitchen|nhà bếp
+bathroom|phòng tắm
+garden|khu vườn
+tree|cái cây
+flower|bông hoa
+grass|cỏ
+sky|bầu trời
+sun|mặt trời
+moon|mặt trăng
+star|ngôi sao
+cloud|đám mây
+rain|mưa
+wind|gió
+snow|tuyết
+river|con sông
+mountain|ngọn núi
+sea|biển
+beach|bãi biển
+lake|hồ nước
+road|con đường
+car|ô tô
+motorbike|xe máy
+bicycle|xe đạp
+bus|xe buýt
+train|tàu hỏa
+airplane|máy bay
+airport|sân bay
+station|nhà ga
+hotel|khách sạn
+restaurant|nhà hàng
+food|đồ ăn
+drink|đồ uống
+water|nước
+coffee|cà phê
+tea|trà
+milk|sữa
+bread|bánh mì
+rice|cơm
+noodle|mì
+meat|thịt
+fish|cá
+chicken|gà
+egg|trứng
+fruit|trái cây
+apple|táo
+banana|chuối
+orange|cam
+mango|xoài
+grape|nho
+lemon|chanh
+strawberry|dâu tây
+vegetable|rau củ
+potato|khoai tây
+tomato|cà chua
+onion|hành tây
+pepper|tiêu
+salt|muối
+sugar|đường
+cake|bánh ngọt
+ice cream|kem
+cookie|bánh quy
+sweet|kẹo ngọt
+music|âm nhạc
+song|bài hát
+dance|nhảy múa
+movie|phim ảnh
+cinema|rạp chiếu phim
+game|trò chơi
+toy|đồ chơi
+gift|món quà
+birthday|sinh nhật
+party|bữa tiệc
+holiday|kỳ nghỉ
+travel|du lịch
+trip|chuyến đi
+journey|hành trình
+adventure|cuộc phiêu lưu
+dream|giấc mơ
+love|tình yêu
+heart|trái tim
+kiss|nụ hôn
+hug|cái ôm
+smile|nụ cười
+laugh|tiếng cười
+cry|khóc
+happy|hạnh phúc
+sad|buồn bã
+angry|tức giận
+afraid|sợ hãi
+brave|dũng cảm
+kind|tốt bụng
+honest|trung thực
+polite|lịch sự
+strong|mạnh mẽ
+weak|yếu đuối
+rich|giàu có
+poor|nghèo khó
+beautiful|xinh đẹp
+handsome|đẹp trai
+young|trẻ tuổi
+old|già nua
+baby|em bé
+child|đứa trẻ
+adult|người lớn
+man|đàn ông
+woman|phụ nữ
+boy|cậu bé
+girl|cô bé
+brother|anh/em trai
+sister|chị/em gái
+father|cha
+mother|mẹ
+grandfather|ông
+grandmother|bà
+uncle|chú
+aunt|cô/dì
+cousin|anh chị em họ
+husband|chồng
+wife|vợ
+friendship|tình bạn
+relationship|mối quan hệ
+neighbor|hàng xóm
+boss|sếp
+worker|công nhân
+doctor|bác sĩ
+nurse|y tá
+engineer|kỹ sư
+driver|tài xế
+farmer|nông dân
+painter|họa sĩ
+writer|nhà văn
+poet|nhà thơ
+singer|ca sĩ
+actor|diễn viên
+police|cảnh sát
+firefighter|lính cứu hỏa
+soldier|người lính
+scientist|nhà khoa học
+athlete|vận động viên
+coach|huấn luyện viên
+pupil|học trò
+university|đại học
+college|cao đẳng
+library|thư viện
+hospital|bệnh viện
+office|văn phòng
+company|công ty
+market|chợ
+shop|cửa hàng
+mall|trung tâm thương mại
+bank|ngân hàng
+post office|bưu điện
+church|nhà thờ
+temple|ngôi đền
+museum|bảo tàng
+zoo|sở thú
+park|công viên
+playground|sân chơi
+street|con phố
+bridge|cây cầu
+tower|tháp
+castle|lâu đài
+palace|cung điện
+statue|bức tượng
+island|hòn đảo
+desert|sa mạc
+forest|khu rừng
+jungle|rừng rậm
+valley|thung lũng
+hill|đồi
+cliff|vách đá
+cave|hang động
+earth|trái đất
+world|thế giới
+country|đất nước
+city|thành phố
+village|làng quê
+capital|thủ đô
+continent|châu lục
+ocean|đại dương
+language|ngôn ngữ
+word|từ ngữ
+sentence|câu văn
+story|câu chuyện
+bookstore|nhà sách
+newspaper|báo chí
+magazine|tạp chí
+news|tin tức
+information|thông tin
+message|tin nhắn
+letter|lá thư
+email|thư điện tử
+phone|điện thoại
+call|cuộc gọi
+computer|máy tính
+internet|mạng internet
+website|trang web
+app|ứng dụng
+photo|bức ảnh
+video|đoạn phim
+camera|máy ảnh
+television|tivi
+radio|đài phát thanh
+clock|đồng hồ
+watch|đồng hồ đeo tay
+calendar|lịch
+map|bản đồ
+key|chìa khóa
+bag|cái túi
+wallet|ví tiền
+money|tiền bạc
+coin|đồng xu
+card|thẻ
+ticket|vé
+passport|hộ chiếu
+identity card|chứng minh thư
+glasses|kính mắt
+shoes|giày
+clothes|quần áo
+shirt|áo sơ mi
+pants|quần dài
+skirt|váy
+dress|đầm
+hat|mũ
+cap|mũ lưỡi trai
+belt|thắt lưng
+scarf|khăn quàng
+umbrella|ô
+soap|xà phòng
+shampoo|dầu gội
+toothbrush|bàn chải đánh răng
+toothpaste|kem đánh răng
+towel|khăn tắm
+bed|cái giường
+blanket|chăn
+pillow|gối
+lamp|đèn ngủ
+fan|quạt máy
+air conditioner|máy điều hòa
+heater|máy sưởi
+remote|điều khiển từ xa
+music player|máy nghe nhạc
+earphone|tai nghe
+battery|pin
+electricity|điện
+fire|lửa
+water|nước
+earthquake|động đất
+storm|cơn bão
+volcano|núi lửa
+tsunami|sóng thần
+accident|tai nạn
+emergency|trường hợp khẩn cấp
+medicine|thuốc
+vitamin|vitamin
+energy|năng lượng
+power|sức mạnh
+luck|may mắn
+fate|số phận
+life|cuộc sống
+death|cái chết
+future|tương lai
+past|quá khứ
+present|hiện tại
+beginning|sự khởi đầu
+end|kết thúc
+morning|buổi sáng
+noon|buổi trưa
+afternoon|buổi chiều
+evening|buổi tối
+night|ban đêm
+day|ngày
+week|tuần
+month|tháng
+year|năm
+decade|thập kỷ
+century|thế kỷ
+today|hôm nay
+yesterday|hôm qua
+tomorrow|ngày mai
+time|thời gian
+clock|đồng hồ
+hour|giờ
+minute|phút
+second|giây
+early|sớm
+late|muộn
+fast|nhanh
+slow|chậm
+soon|sớm thôi
+always|luôn luôn
+usually|thường xuyên
+sometimes|thỉnh thoảng
+rarely|hiếm khi
+never|không bao giờ
+before|trước
+after|sau
+now|bây giờ
+then|sau đó
+first|đầu tiên
+last|cuối cùng
+next|tiếp theo
+again|lại lần nữa
+quickly|một cách nhanh chóng
+carefully|một cách cẩn thận
+easily|dễ dàng
+happily|vui vẻ
+sadly|buồn bã
+angrily|tức giận
+quietly|yên lặng
+loudly|ồn ào
+softly|nhẹ nhàng
+hard|cứng
+soft|mềm
+heavy|nặng
+light|nhẹ
+hot|nóng
+cold|lạnh
+warm|ấm áp
+cool|mát mẻ
+clean|sạch
+dirty|bẩn
+new|mới
+old|cũ
+big|to
+small|nhỏ
+long|dài
+short|ngắn
+high|cao
+low|thấp
+thick|dày
+thin|mỏng
+wide|rộng
+narrow|hẹp
+deep|sâu
+shallow|nông
+strong|khỏe
+weak|yếu
+rich|giàu
+poor|nghèo
+easy|dễ
+difficult|khó
+simple|đơn giản
+complicated|phức tạp
+good|tốt
+bad|xấu
+better|tốt hơn
+worse|tệ hơn
+best|tốt nhất
+worst|tệ nhất
+beautiful|đẹp
+ugly|xấu xí
+pretty|xinh xắn
+handsome|đẹp trai
+clever|thông minh
+stupid|ngu ngốc
+smart|lanh lợi
+foolish|ngốc nghếch
+important|quan trọng
+unimportant|không quan trọng
+useful|hữu ích
+useless|vô ích
+happy|vui vẻ
+sad|buồn
+healthy|khỏe mạnh
+sick|bệnh
+young|trẻ
+old|già
+early|sớm
+late|trễ
+safe|an toàn
+dangerous|nguy hiểm
+right|đúng
+wrong|sai
+open|mở
+closed|đóng
+full|đầy
+empty|trống
+hardworking|chăm chỉ
+lazy|lười biếng
+brave|dũng cảm
+coward|nhát gan
+friendly|thân thiện
+unfriendly|không thân thiện
+polite|lịch sự
+rude|thô lỗ
+honest|trung thực
+dishonest|không trung thực
+kind|tốt bụng
+unkind|không tốt
+helpful|giúp đỡ
+selfish|ích kỷ
+serious|nghiêm túc
+funny|vui nhộn
+quiet|im lặng
+noisy|ồn ào
+rich|giàu có
+poor|nghèo đói
+deep|sâu thẳm
+shallow|nông cạn
+dark|tối tăm
+bright|sáng sủa
+young|trẻ trung
+elderly|già cả
+ancient|cổ xưa
+modern|hiện đại
+cheap|rẻ
+expensive|đắt
+hot|nóng bức
+cool|mát mẻ
+hungry|đói bụng
+thirsty|khát nước
+tired|mệt mỏi
+energetic|tràn đầy năng lượng
+interesting|thú vị
+boring|nhàm chán
+popular|phổ biến
+unknown|không ai biết đến
+alive|còn sống
+dead|chết
+sharp|sắc bén
+blunt|cùn
+wet|ướt
+dry|khô
+sweet|ngọt
+bitter|đắng
+sour|chua
+salty|mặn
+spicy|cay
+plain|nhạt
+left|trái
+right|phải
+up|lên
+down|xuống
+inside|bên trong
+outside|bên ngoài
+far|xa
+near|gần
+in|trong
+out|ngoài
+over|trên
+under|dưới
+between|ở giữa
+among|trong số
+with|với
+without|không có
+above|bên trên
+below|bên dưới
+at|tại
+to|đến
+from|từ
+for|cho
+of|của
+by|bằng
+about|về
+through|xuyên qua
+across|băng qua
+behind|phía sau
+in front of|phía trước
+next to|bên cạnh
+near|gần
+far from|xa từ
+during|trong lúc
+before|trước khi
+after|sau khi
+since|kể từ khi
+until|cho đến khi
+while|trong khi
+although|mặc dù
+because|bởi vì
+if|nếu
+unless|trừ khi
+so|vì vậy
+therefore|do đó
+however|tuy nhiên
+but|nhưng
+and|và
+or|hoặc
+either|hoặc
+neither|không cái nào
+both|cả hai
+each|mỗi
+every|mọi
+some|một vài
+any|bất kỳ
+many|nhiều
+few|ít
+several|một vài
+all|tất cả
+most|hầu hết
+few|ít
+several|vài
+all|tất cả
+most|phần lớn
+none|không ai cả
+other|khác
+another|một cái khác
+same|giống nhau
+different|khác nhau
+first|đầu tiên
+second|thứ hai
+third|thứ ba
+last|cuối cùng
+next|tiếp theo
+previous|trước đó
+best|tốt nhất
+better|tốt hơn
+worst|tệ nhất
+worse|tệ hơn
+biggest|lớn nhất
+smallest|nhỏ nhất
+largest|lớn nhất
+shortest|ngắn nhất
+longest|dài nhất
+highest|cao nhất
+lowest|thấp nhất
+youngest|trẻ nhất
+oldest|già nhất
+fastest|nhanh nhất
+slowest|chậm nhất
+strongest|mạnh nhất
+weakest|yếu nhất
+richest|giàu nhất
+poorest|nghèo nhất
+newest|mới nhất
+oldest|cũ nhất
+happiest|vui nhất
+saddest|buồn nhất
+cleanest|sạch nhất
+dirtiest|bẩn nhất
+friendliest|thân thiện nhất
+meanest|xấu tính nhất
+bravest|dũng cảm nhất
+smartest|thông minh nhất
+dumbest|ngu ngốc nhất
+kindest|tốt bụng nhất
+cruelest|tàn nhẫn nhất
+easiest|dễ nhất
+hardest|khó nhất
+simplest|đơn giản nhất
+most complicated|phức tạp nhất
+most beautiful|đẹp nhất
+ugliest|xấu nhất
+nicest|dễ chịu nhất
+rudest|thô lỗ nhất
+quietest|yên tĩnh nhất
+loudest|ồn ào nhất
+strong|mạnh
+weak|yếu
+soft|mềm
+hard|cứng
+sharp|nhọn
+blunt|cùn
+deep|sâu
+shallow|nông
+light|nhẹ
+heavy|nặng
+wet|ướt
+dry|khô
+early|sớm
+late|muộn
+high|cao
+low|thấp
+sweet|ngọt
+sour|chua
+bitter|đắng
+salty|mặn
+spicy|cay
+tasty|ngon
+delicious|rất ngon
+disgusting|kinh tởm
+beautiful|xinh đẹp
+pretty|xinh xắn
+handsome|đẹp trai
+ugly|xấu xí
+rich|giàu
+poor|nghèo
+happy|hạnh phúc
+sad|buồn
+angry|giận dữ
+afraid|sợ hãi
+brave|can đảm
+cowardly|hèn nhát
+friendly|thân thiện
+unfriendly|khó gần
+polite|lịch sự
+rude|thô lỗ
+funny|vui vẻ
+serious|nghiêm túc
+honest|thành thật
+dishonest|dối trá
+kind|tốt bụng
+mean|xấu tính
+clever|thông minh
+stupid|ngu ngốc
+careful|cẩn thận
+careless|bất cẩn
+hardworking|chăm chỉ
+lazy|lười biếng
+generous|hào phóng
+selfish|ích kỷ
+calm|bình tĩnh
+nervous|lo lắng
+optimistic|lạc quan
+pessimistic|bi quan
+creative|sáng tạo
+boring|nhàm chán
+active|năng động
+passive|thụ động
+patient|kiên nhẫn
+impatient|nóng vội
+organized|có tổ chức
+messy|bừa bộn
+confident|tự tin
+shy|rụt rè
+strong|khỏe mạnh
+weak|ốm yếu
+healthy|sức khỏe tốt
+sick|bệnh
+young|trẻ
+old|già
+new|mới
+ancient|cổ xưa
+modern|hiện đại
+cheap|rẻ
+expensive|đắt
+hot|nóng
+cold|lạnh
+cool|mát
+warm|ấm
+long|dài
+short|ngắn
+big|to
+small|nhỏ
+thin|gầy
+fat|béo
+tall|cao
+short|thấp
+straight|thẳng
+curved|cong
+empty|trống rỗng
+full|đầy
+strong|khỏe
+weak|yếu
+bright|sáng
+dark|tối
+smooth|mịn màng
+rough|gồ ghề
+simple|đơn giản
+complicated|phức tạp
+beautiful|đẹp
+ugly|xấu
+interesting|thú vị
+boring|nhạt nhẽo
+safe|an toàn
+dangerous|nguy hiểm
+easy|dễ dàng
+difficult|khó khăn
+animal|động vật
+dog|chó
+cat|mèo
+bird|chim
+fish|cá
+horse|ngựa
+cow|bò
+pig|lợn
+chicken|gà
+duck|vịt
+goat|dê
+sheep|cừu
+lion|sư tử
+tiger|hổ
+elephant|voi
+monkey|khỉ
+rabbit|thỏ
+bear|gấu
+wolf|sói
+snake|rắn
+turtle|rùa
+frog|ếch
+mouse|chuột
+deer|hươu
+fox|cáo
+panda|gấu trúc
+zebra|ngựa vằn
+kangaroo|chuột túi
+giraffe|hươu cao cổ
+hippopotamus|hà mã
+crocodile|cá sấu
+shark|cá mập
+whale|cá voi
+dolphin|cá heo
+octopus|bạch tuộc
+crab|cua
+lobster|tôm hùm
+ant|kiến
+bee|ong
+butterfly|bướm
+spider|nhện
+insect|côn trùng
+pet|thú cưng
+wild|hoang dã
+domestic|thuần hóa
+forest|khu rừng
+jungle|rừng nhiệt đới
+desert|sa mạc
+ocean|đại dương
+sea|biển
+river|sông
+lake|hồ
+mountain|núi
+hill|đồi
+valley|thung lũng
+island|đảo
+volcano|núi lửa
+cave|hang động
+beach|bãi biển
+sunrise|bình minh
+sunset|hoàng hôn
+rain|mưa
+snow|tuyết
+storm|bão
+wind|gió
+cloud|mây
+sky|bầu trời
+earth|trái đất
+moon|mặt trăng
+star|ngôi sao
+space|không gian
+planet|hành tinh
+universe|vũ trụ
+galaxy|thiên hà
+asteroid|tiểu hành tinh
+comet|sao chổi
+meteor|sao băng
+north|bắc
+south|nam
+east|đông
+west|tây
+left|trái
+right|phải
+up|lên
+down|xuống
+forward|phía trước
+backward|phía sau
+inside|bên trong
+outside|bên ngoài
+above|bên trên
+below|bên dưới
+near|gần
+far|xa
+in|trong
+out|ngoài
+between|giữa
+among|trong số
+over|qua
+under|dưới
+beside|bên cạnh
+around|xung quanh
+through|xuyên qua
+across|băng qua
+past|vượt qua
+along|dọc theo
+onto|lên trên
+into|vào trong
+off|rời khỏi
+out of|ra khỏi
+toward|hướng tới
+away from|rời xa
+around|xung quanh
+until|cho đến khi
+since|kể từ
+during|trong lúc
+after|sau khi
+before|trước khi
+while|trong khi
+because|bởi vì
+although|mặc dù
+if|nếu
+unless|trừ khi
+whether|liệu rằng
+as|khi
+so|vì vậy
+thus|vì thế
+therefore|do đó
+otherwise|nếu không
+however|tuy nhiên
+nevertheless|tuy thế
+still|vẫn
+yet|vậy mà
+but|nhưng
+and|và
+or|hoặc
+either|hoặc
+neither|không cái nào
+both|cả hai
+not only|không chỉ
+but also|mà còn
+such as|ví dụ như
+for example|ví dụ
+like|giống như
+as well as|cũng như
+in order to|để
+so that|để mà
+because of|vì
+due to|do
+thanks to|nhờ vào
+instead of|thay vì
+apart from|ngoài ra
+except|ngoại trừ
