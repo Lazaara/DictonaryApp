@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace DictionaryAppSingleFile
+﻿namespace WinFormsApp2
 {
     public class Dictionary
     {
