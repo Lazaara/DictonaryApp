@@ -1,6 +1,3 @@
-hello|xin chào
-welcome|chào mừng
-friend|bạn bè
 family|gia đình
 school|trường học
 teacher|giáo viên
@@ -824,3 +821,6 @@ thanks to|nhờ vào
 instead of|thay vì
 apart from|ngoài ra
 except|ngoại trừ
+|
+|
+|

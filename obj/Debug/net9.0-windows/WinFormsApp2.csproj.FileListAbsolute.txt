@@ -40,3 +40,4 @@ D:\Rider Projects\DictionaryApp\obj\Debug\net9.0-windows\refint\WinFormsApp2.dll
 D:\Rider Projects\DictionaryApp\obj\Debug\net9.0-windows\WinFormsApp2.pdb
 D:\Rider Projects\DictionaryApp\obj\Debug\net9.0-windows\WinFormsApp2.genruntimeconfig.cache
 D:\Rider Projects\DictionaryApp\obj\Debug\net9.0-windows\ref\WinFormsApp2.dll
+D:\Rider Projects\DictionaryApp\obj\Debug\net9.0-windows\WinFormsApp2.sourcelink.json

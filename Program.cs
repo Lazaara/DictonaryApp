@@ -21,9 +21,24 @@ namespace DictionaryAppSingleFile
     {
         private TextBox textBoxTerm;
         private Button buttonSearch;
-        private Label labelMeaning;
+        
+        private TextBox textBoxMeaning;
+        
         private ListBox listBoxHistory;
+        private Label listBoxLabel;
         private Button buttonClearHistory;
+        private TextBox addWordK;
+        private TextBox addWordV;
+        private Button addWord;
+        private Label labelAddWordK;
+        private Label labelAddWordV;
+        private Label labelAddWordStatus;
+        private TextBox removeWord;
+        private Button removeWordButton;
+        private Label removeWordLabel;
+        private Label labelRemoveWordStatus;
+        private Label labelManageWords;
+        
 
         private DictionaryManager dictManager;
         private HistoryList historyList; // Line 29
@@ -40,44 +55,139 @@ namespace DictionaryAppSingleFile
             fileHandler = new FileHandler();
 
             // Thiết lập form
-            this.Text = "DictionaryApp";
-            this.ClientSize = new Size(350, 300);
+            this.Text = "Từ điển Anh - Việt";
+            this.ClientSize = new Size(880, 665);
+            this.MaximumSize = this.Size;
+            this.MinimumSize = this.Size;
+            this.BackgroundImage = Image.FromFile("assets/bg.jpg");
 
             // Tạo và cấu hình controls
             textBoxTerm = new TextBox();
-            textBoxTerm.Location = new Point(10, 10);
-            textBoxTerm.Width = 200;
+            textBoxTerm.Location = new Point(10, 18);
+            textBoxTerm.Width = 730;
 
             buttonSearch = new Button();
-            buttonSearch.Text = "Search";
-            buttonSearch.Location = new Point(220, 10);
-            buttonSearch.Width = 80;
+            buttonSearch.Text = "Tìm kiếm";
+            buttonSearch.Location = new Point(750, 18);
+            buttonSearch.Width = 120;
+            buttonSearch.Height = 30;
+            
+            textBoxMeaning = new TextBox();
+            textBoxMeaning.Text = "Kết quả tra cứu sẽ được hiện ở đây";
+            textBoxMeaning.ReadOnly = true;
+            textBoxMeaning.Location = new Point(10, 55);
+            textBoxMeaning.Width = 860;
+            textBoxMeaning.Height = 145;
+            textBoxMeaning.Multiline = true;
+            
+            labelManageWords = new Label();
+            labelManageWords.Text = "Quản lý từ vựng:";
+            labelManageWords.Location = new Point(10, 210);
+            labelManageWords.AutoSize = true;
+            
+            labelAddWordK = new Label();
+            labelAddWordK.Text = "Từ";
+            labelAddWordK.Location = new Point(10, 235);
+            labelAddWordK.AutoSize = true;
+            
+            labelAddWordV = new Label();
+            labelAddWordV.Text = "Nghĩa";
+            labelAddWordV.Location = new Point(165, 235);
+            labelAddWordV.AutoSize = true;
+            
+            labelAddWordStatus = new Label();
+            labelAddWordStatus.Text = "";
+            labelAddWordStatus.Location = new Point(322, 235);
+            labelAddWordStatus.Visible = false;
 
-            labelMeaning = new Label();
-            labelMeaning.Text = "Meaning";
-            labelMeaning.Location = new Point(10, 50);
-            labelMeaning.AutoSize = true;
+            addWordK = new TextBox();
+            addWordK.Location = new Point(10, 260);
+            addWordK.Width = 150;
+            
+            addWordV = new TextBox();
+            addWordV.Location = new Point(165, 260);
+            addWordV.Width = 150;
 
+            addWord = new Button();
+            addWord.Text = "Thêm từ";
+            addWord.Location = new Point(320, 260);
+            addWord.Width = 100;
+            addWord.Height = 30;
+            
+            removeWord = new TextBox();
+            removeWord.Location = new Point(435, 260);
+            removeWord.Width = 330;
+            
+            removeWordButton = new Button();
+            removeWordButton.Text = "Xoá từ";
+            removeWordButton.Location = new Point(770, 260);
+            removeWordButton.Width = 100;
+            removeWordButton.Height = 30;
+            
+            removeWordLabel = new Label();
+            removeWordLabel.Text = "Xoá từ vựng khỏi Dictonary";
+            removeWordLabel.Location = new Point(435, 235);
+            removeWordLabel.AutoSize = true;
+            
+            labelRemoveWordStatus = new Label();
+            labelRemoveWordStatus.Text = "";
+            labelRemoveWordStatus.Location = new Point(772, 235);
+            labelRemoveWordStatus.Visible = false;
+
+            
+            listBoxLabel = new Label();
+            listBoxLabel.Text = "Lịch sử tra cứu:";
+            listBoxLabel.Location = new Point(10, 295);
+            listBoxLabel.AutoSize = true;
+            
+            
             listBoxHistory = new ListBox();
-            listBoxHistory.Location = new Point(10, 80);
-            listBoxHistory.Size = new Size(300, 150);
+            listBoxHistory.Location = new Point(10, 320);
+            listBoxHistory.Size = new Size(860, 300);
 
             buttonClearHistory = new Button();
-            buttonClearHistory.Text = "Clear History";
-            buttonClearHistory.Location = new Point(10, 240);
+            buttonClearHistory.Text = "Xoá lịch sử";
+            buttonClearHistory.Location = new Point(10, 625);
             buttonClearHistory.Width = 100;
+            buttonClearHistory.Height = 30;
 
             // Đăng ký sự kiện
             buttonSearch.Click += new EventHandler(OnSearchClick);
             buttonClearHistory.Click += new EventHandler(OnClearHistoryClick);
+            addWord.Click += new EventHandler(AddNewWord);
+            removeWordButton.Click += new EventHandler(RemoveWord);
             this.FormClosing += new FormClosingEventHandler(OnFormClosing);
 
             // Thêm controls vào form
             this.Controls.Add(textBoxTerm);
             this.Controls.Add(buttonSearch);
-            this.Controls.Add(labelMeaning);
+            this.Controls.Add(textBoxMeaning);
             this.Controls.Add(listBoxHistory);
             this.Controls.Add(buttonClearHistory);
+            this.Controls.Add(addWordK);
+            this.Controls.Add(addWordV);
+            this.Controls.Add(addWord);
+            this.Controls.Add(labelAddWordK);
+            this.Controls.Add(labelAddWordV);
+            this.Controls.Add(labelAddWordStatus);
+            this.Controls.Add(listBoxLabel);
+            this.Controls.Add(removeWord);
+            this.Controls.Add(removeWordButton);
+            this.Controls.Add(removeWordLabel);
+            this.Controls.Add(labelRemoveWordStatus);
+            this.Controls.Add(labelManageWords);
+
+            foreach (Control ctrl in Controls)
+            {
+                if (ctrl != null)
+                {
+                    ctrl.Font = new Font(ctrl.Font.FontFamily, 12, FontStyle.Regular);
+                    ctrl.BackColor = Color.White;
+                    ctrl.ForeColor = Color.Black;
+                    // Workaround để đổi màu readonly textbox
+                    ctrl.BackColor = ctrl.BackColor;
+                }
+            }
 
             // Load dữ liệu từ điển và lịch sử
             dictManager.LoadFromFile(DictFileName);
@@ -90,11 +200,47 @@ namespace DictionaryAppSingleFile
             RefreshHistoryDisplay();
         }
 
+        private void RemoveWord(object sender, EventArgs e)
+        {
+            
+            string input = removeWord.Text;
+            removeWord.Text = "";
+            if (dictManager.dict.ContainsKey(input))
+            {
+                fileHandler.RemoveContainedLines(DictFileName, input);
+                dictManager.dict.Remove(input);
+                labelRemoveWordStatus.Text = "Thành công!";
+                
+            }
+            else
+            {
+
+                labelRemoveWordStatus.Text = "Lỗi!";
+
+            }
+
+            labelRemoveWordStatus.Visible = true;
+        }
+
+        private void AddNewWord(object sender, EventArgs e)
+        {
+            
+            string key = addWordK.Text;
+            string value = addWordV.Text;
+            addWordV.Text = "";
+            addWordK.Text = "";
+            fileHandler.AddLine(DictFileName, $"{key}|{value}");
+            dictManager.LoadFromFile(DictFileName);
+            labelAddWordStatus.Text = "Thành công!";
+            labelAddWordStatus.Visible = true;
+
+        }
+
         private void OnSearchClick(object sender, EventArgs e)
         {
             string term = textBoxTerm.Text.Trim();
             string meaning = dictManager.Lookup(term);
-            labelMeaning.Text = meaning;
+            textBoxMeaning.Text = meaning;
             if (meaning != "Không tìm thấy")
             {
                 historyList.Add(term);
@@ -148,6 +294,59 @@ namespace DictionaryAppSingleFile
             }
         }
 
+        public void AddLine(string path, string input)
+        {
+            try
+            {
+
+                if (File.Exists(path))
+                {
+                    
+                    File.AppendAllText(path, input + Environment.NewLine);
+                    
+                }
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi ghi file.");
+            }
+        }
+
+        public void RemoveContainedLines(string path, string input)
+        {
+            try
+            {
+
+                if (File.Exists(path))
+                {
+                    
+                    List<string> lines = File.ReadAllLines(path).ToList();
+                    foreach (string line in lines)
+                    {
+                        if (line.Contains(input))
+                        {
+                            lines.Remove(line);
+                            string[] newFile = lines.ToArray();
+                            WriteAllLines(path, newFile);
+                            break;
+                        }
+                        
+                    }
+                    
+                }
+                else
+                {
+                    File.WriteAllText(path, null);
+                }
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi ghi file.");
+            }
+        }
+
         public void WriteAllLines(string path, string[] lines)
         {
             try
@@ -163,7 +362,7 @@ namespace DictionaryAppSingleFile
 
     public class DictionaryManager
     {
-        private Dictionary dict;
+        public Dictionary dict;
         private FileHandler fileHandler;
 
         public DictionaryManager()
